@@ -1,0 +1,168 @@
+
+
+.develop {
+  background-color: #1c2237;
+  display: flex;
+
+
+
+  .left {
+    flex: 0.5;
+    overflow: hidden;
+
+    .imgContainer {
+      width: 800px;
+      position: absolute;
+      top: 23rem;
+      right:  45rem;
+      
+      background-color: #1c2237;
+      border-radius: 50%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      float: right;
+      margin-top: -120px;
+
+      a {
+        height: 75%;
+
+        
+      }
+
+      img {
+        height: 75%;
+        width: 75%;
+        
+
+        
+      }
+    }
+  }
+
+
+  .imgContainer {
+    width: 800px;
+    position: absolute;
+    top: 5rem;
+    right:  45rem;
+    
+    background-color: #1c2237;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    float: right;
+    margin-top: -120px;
+
+    a {
+      height: 75%;
+
+      
+    }
+
+    img {
+      height: 75%;
+      width: 75%;
+      
+
+      
+    }
+  }
+
+
+  .imgContainer2 {
+    width: 800px;
+    position: absolute;
+    top: 15rem;
+    right:  40rem;
+    
+    background-color: #1c2237;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    float: right;
+    margin-top: -120px;
+
+    a {
+      height: 75%;
+
+      
+    }
+
+    img {
+      height: 75%;
+      width: 75%;
+      
+
+      
+    }
+  }
+}
+  .right {
+    flex: 0.5;
+    position: relative;
+
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: -50px;
+    
+
+      h1 {
+        font-size: 30px;
+        margin: 10px 0;
+        color: white;
+
+     
+      }
+      h2 {
+        font-size: 25px;
+        text-align: justify;
+        color: white;
+      }
+      h3 {
+        font-size: 15px;
+        color: white;
+        text-align: justify;
+        
+
+        
+
+        span {
+          font-size: inherit;
+          color: crimson;
+        }
+
+      
+
+        @keyframes blink {
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+      }
+    }
+
+
+      img {
+        width: 30px;
+        animation: arrowBlink 2s infinite;
+      }
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
+      }
+    }
+  
+

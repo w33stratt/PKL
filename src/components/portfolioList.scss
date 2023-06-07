@@ -1,0 +1,28 @@
+$mainColor: #15023a;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
+
+.portfolioList {
+  font-size: 14px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 2;
+
+  @include mobile{
+    margin-right: 20px;
+  }
+
+  &.active {
+    background-color: $mainColor;
+    color: white;
+    
+  }
+}
